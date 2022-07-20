@@ -4,6 +4,7 @@
 
 html, body {
     min-height: 100%;
+    width: 100%;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     height: 198px;
     outline: 1px solid #e2e2e2;
     margin: 0 auto;
-    transform: scale(5) translateY(50%);
+    transform: scale(3) translateY(50%);
 }
 
 .gameContainer canvas {
