@@ -14,6 +14,8 @@ class Person extends GameObject {
     }
 
     update(state) {
+        // Move if progress is greater than 0
+        
         if  (this.movingProgressRemaining > 0) {
             this.updatePosition();
         } else {
